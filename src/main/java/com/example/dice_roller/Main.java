@@ -57,7 +57,7 @@ public class Main extends Application {
 			imageView.setFitWidth(100);
 
 			VBox container = new VBox(10);
-			text = new Text();
+			text = new Text("Dice Roller");
 			text.setFont(new Font(20));
 			text.setFill(Color.WHITE);
 			container.getChildren().addAll(text, imageView, button);
